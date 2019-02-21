@@ -35,6 +35,12 @@
 		CF67FBEF221E42F100C6B9EF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF67FBEE221E42F100C6B9EF /* main.cpp */; };
 		CF67FBFA221E499100C6B9EF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF67FBF9221E499100C6B9EF /* main.cpp */; };
 		CF67FC05221E506600C6B9EF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF67FC04221E506600C6B9EF /* main.cpp */; };
+		CF82926B221E78A1003A64BC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF82926A221E78A1003A64BC /* main.cpp */; };
+		CF829272221E796F003A64BC /* Contestanter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF829270221E796F003A64BC /* Contestanter.cpp */; };
+		CF82927A221EA9AA003A64BC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF829279221EA9AA003A64BC /* main.cpp */; };
+		CF829280221EA9BF003A64BC /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF82927F221EA9BF003A64BC /* OpenGL.framework */; };
+		CF829282221EA9C7003A64BC /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF829281221EA9C7003A64BC /* GLUT.framework */; };
+		CF829284221EA9CF003A64BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF829283221EA9CF003A64BC /* Foundation.framework */; };
 		CF84190E21FAA71E009DC036 /* game1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF84190C21FAA71E009DC036 /* game1.cpp */; };
 		CF84191121FAA730009DC036 /* game2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF84190F21FAA730009DC036 /* game2.cpp */; };
 		CF84191521FAE46D009DC036 /* yinyong.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF84191321FAE46D009DC036 /* yinyong.cpp */; };
@@ -139,6 +145,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		CF829266221E78A0003A64BC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		CF829275221EA9AA003A64BC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		CFC231D2220171F700C96D90 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -235,6 +259,16 @@
 		CF67FBF9221E499100C6B9EF /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		CF67FC02221E506600C6B9EF /* 算法 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "算法"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF67FC04221E506600C6B9EF /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		CF829268221E78A0003A64BC /* 演讲比赛实战 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "演讲比赛实战"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF82926A221E78A1003A64BC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		CF82926F221E78C9003A64BC /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		CF829270221E796F003A64BC /* Contestanter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Contestanter.cpp; sourceTree = "<group>"; };
+		CF829271221E796F003A64BC /* Contestanter.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Contestanter.hpp; sourceTree = "<group>"; };
+		CF829277221EA9AA003A64BC /* 贪吃蛇 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "贪吃蛇"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF829279221EA9AA003A64BC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		CF82927F221EA9BF003A64BC /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		CF829281221EA9C7003A64BC /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		CF829283221EA9CF003A64BC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CF84190C21FAA71E009DC036 /* game1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = game1.cpp; sourceTree = "<group>"; };
 		CF84190D21FAA71E009DC036 /* game1.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = game1.hpp; sourceTree = "<group>"; };
 		CF84190F21FAA730009DC036 /* game2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = game2.cpp; sourceTree = "<group>"; };
@@ -337,6 +371,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF829265221E78A0003A64BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF829274221EA9AA003A64BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF829284221EA9CF003A64BC /* Foundation.framework in Frameworks */,
+				CF829282221EA9C7003A64BC /* GLUT.framework in Frameworks */,
+				CF829280221EA9BF003A64BC /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -569,6 +620,35 @@
 			path = "算法";
 			sourceTree = "<group>";
 		};
+		CF829269221E78A1003A64BC /* 演讲比赛实战 */ = {
+			isa = PBXGroup;
+			children = (
+				CF82926A221E78A1003A64BC /* main.cpp */,
+				CF82926F221E78C9003A64BC /* Header.h */,
+				CF829270221E796F003A64BC /* Contestanter.cpp */,
+				CF829271221E796F003A64BC /* Contestanter.hpp */,
+			);
+			path = "演讲比赛实战";
+			sourceTree = "<group>";
+		};
+		CF829278221EA9AA003A64BC /* 贪吃蛇 */ = {
+			isa = PBXGroup;
+			children = (
+				CF829279221EA9AA003A64BC /* main.cpp */,
+			);
+			path = "贪吃蛇";
+			sourceTree = "<group>";
+		};
+		CF82927E221EA9BE003A64BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF829283221EA9CF003A64BC /* Foundation.framework */,
+				CF829281221EA9C7003A64BC /* GLUT.framework */,
+				CF82927F221EA9BF003A64BC /* OpenGL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CF84190B21FAA70D009DC036 /* New Group */ = {
 			isa = PBXGroup;
 			children = (
@@ -645,7 +725,10 @@
 				CF67FBED221E42F100C6B9EF /* 谓词和仿函数 */,
 				CF67FBF8221E499100C6B9EF /* 适配器 */,
 				CF67FC03221E506600C6B9EF /* 算法 */,
+				CF829269221E78A1003A64BC /* 演讲比赛实战 */,
+				CF829278221EA9AA003A64BC /* 贪吃蛇 */,
 				CFC3EA75214DEBA900B71B9B /* Products */,
+				CF82927E221EA9BE003A64BC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -665,6 +748,8 @@
 				CF67FBEC221E42F100C6B9EF /* 谓词和仿函数 */,
 				CF67FBF7221E499100C6B9EF /* 适配器 */,
 				CF67FC02221E506600C6B9EF /* 算法 */,
+				CF829268221E78A0003A64BC /* 演讲比赛实战 */,
+				CF829277221EA9AA003A64BC /* 贪吃蛇 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -911,6 +996,40 @@
 			productReference = CF67FC02221E506600C6B9EF /* 算法 */;
 			productType = "com.apple.product-type.tool";
 		};
+		CF829267221E78A0003A64BC /* 演讲比赛实战 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF82926E221E78A1003A64BC /* Build configuration list for PBXNativeTarget "演讲比赛实战" */;
+			buildPhases = (
+				CF829264221E78A0003A64BC /* Sources */,
+				CF829265221E78A0003A64BC /* Frameworks */,
+				CF829266221E78A0003A64BC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "演讲比赛实战";
+			productName = "演讲比赛实战";
+			productReference = CF829268221E78A0003A64BC /* 演讲比赛实战 */;
+			productType = "com.apple.product-type.tool";
+		};
+		CF829276221EA9AA003A64BC /* 贪吃蛇 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF82927B221EA9AA003A64BC /* Build configuration list for PBXNativeTarget "贪吃蛇" */;
+			buildPhases = (
+				CF829273221EA9AA003A64BC /* Sources */,
+				CF829274221EA9AA003A64BC /* Frameworks */,
+				CF829275221EA9AA003A64BC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "贪吃蛇";
+			productName = "贪吃蛇";
+			productReference = CF829277221EA9AA003A64BC /* 贪吃蛇 */;
+			productType = "com.apple.product-type.tool";
+		};
 		CFC231D3220171F700C96D90 /* 动态联编和静态联编 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = CFC231DA220171F700C96D90 /* Build configuration list for PBXNativeTarget "动态联编和静态联编" */;
@@ -1024,6 +1143,14 @@
 						CreatedOnToolsVersion = 10.1;
 						ProvisioningStyle = Automatic;
 					};
+					CF829267221E78A0003A64BC = {
+						CreatedOnToolsVersion = 10.1;
+						ProvisioningStyle = Automatic;
+					};
+					CF829276221EA9AA003A64BC = {
+						CreatedOnToolsVersion = 10.1;
+						ProvisioningStyle = Automatic;
+					};
 					CFC231D3220171F700C96D90 = {
 						CreatedOnToolsVersion = 10.1;
 						ProvisioningStyle = Automatic;
@@ -1067,6 +1194,8 @@
 				CF67FBEB221E42F100C6B9EF /* 谓词和仿函数 */,
 				CF67FBF6221E499100C6B9EF /* 适配器 */,
 				CF67FC01221E506600C6B9EF /* 算法 */,
+				CF829267221E78A0003A64BC /* 演讲比赛实战 */,
+				CF829276221EA9AA003A64BC /* 贪吃蛇 */,
 			);
 		};
 /* End PBXProject section */
@@ -1159,6 +1288,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF67FC05221E506600C6B9EF /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF829264221E78A0003A64BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF82926B221E78A1003A64BC /* main.cpp in Sources */,
+				CF829272221E796F003A64BC /* Contestanter.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF829273221EA9AA003A64BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF82927A221EA9AA003A64BC /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1457,6 +1603,60 @@
 			};
 			name = Release;
 		};
+		CF82926C221E78A1003A64BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CF82926D221E78A1003A64BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CF82927C221EA9AA003A64BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CF82927D221EA9AA003A64BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		CFC231D8220171F700C96D90 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1737,6 +1937,24 @@
 			buildConfigurations = (
 				CF67FC07221E506600C6B9EF /* Debug */,
 				CF67FC08221E506600C6B9EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF82926E221E78A1003A64BC /* Build configuration list for PBXNativeTarget "演讲比赛实战" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF82926C221E78A1003A64BC /* Debug */,
+				CF82926D221E78A1003A64BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF82927B221EA9AA003A64BC /* Build configuration list for PBXNativeTarget "贪吃蛇" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF82927C221EA9AA003A64BC /* Debug */,
+				CF82927D221EA9AA003A64BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
