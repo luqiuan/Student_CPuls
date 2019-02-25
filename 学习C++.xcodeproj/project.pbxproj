@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E31673C221FF24B006661BA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E31673B221FF24A006661BA /* main.cpp */; };
+		8E43C1A52220EE460076A1E5 /* LinkTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E43C1A32220EE450076A1E5 /* LinkTest.cpp */; };
+		8E43C1A822212B0E0076A1E5 /* combineList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E43C1A622212B0E0076A1E5 /* combineList.cpp */; };
 		CF1C380D221CFDB900F9DCFD /* SetTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF1C380B221CFDB900F9DCFD /* SetTest.cpp */; };
 		CF206E5E21FBEEEA006AB203 /* cccc.c in Sources */ = {isa = PBXBuildFile; fileRef = CF206E5D21FBEEEA006AB203 /* cccc.c */; };
 		CF206E6121FBF6DC006AB203 /* Cube.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF206E5F21FBF6DC006AB203 /* Cube.cpp */; };
@@ -64,6 +67,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		8E316731221FF22D006661BA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		CF20ECAC22166A3200ED08E2 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -202,6 +214,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8E316733221FF22D006661BA /* 自定义算法 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "自定义算法"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E31673B221FF24A006661BA /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8E43C1A32220EE450076A1E5 /* LinkTest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LinkTest.cpp; sourceTree = "<group>"; };
+		8E43C1A42220EE450076A1E5 /* LinkTest.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinkTest.hpp; sourceTree = "<group>"; };
+		8E43C1A622212B0E0076A1E5 /* combineList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = combineList.cpp; sourceTree = "<group>"; };
+		8E43C1A722212B0E0076A1E5 /* combineList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = combineList.hpp; sourceTree = "<group>"; };
 		CF1C380B221CFDB900F9DCFD /* SetTest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SetTest.cpp; sourceTree = "<group>"; };
 		CF1C380C221CFDB900F9DCFD /* SetTest.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SetTest.hpp; sourceTree = "<group>"; };
 		CF206E5C21FBEEEA006AB203 /* cccc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cccc.h; sourceTree = "<group>"; };
@@ -311,6 +329,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		8E316730221FF22D006661BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CF20ECAB22166A3200ED08E2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -422,6 +447,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8E31673A221FF24A006661BA /* 自定义算法 */ = {
+			isa = PBXGroup;
+			children = (
+				8E31673B221FF24A006661BA /* main.cpp */,
+				8E43C1A622212B0E0076A1E5 /* combineList.cpp */,
+				8E43C1A722212B0E0076A1E5 /* combineList.hpp */,
+				8E43C1A32220EE450076A1E5 /* LinkTest.cpp */,
+				8E43C1A42220EE450076A1E5 /* LinkTest.hpp */,
+			);
+			path = "自定义算法";
+			sourceTree = "<group>";
+		};
 		CF1C380A221CFDA900F9DCFD /* Set容器 */ = {
 			isa = PBXGroup;
 			children = (
@@ -727,6 +764,7 @@
 				CF67FC03221E506600C6B9EF /* 算法 */,
 				CF829269221E78A1003A64BC /* 演讲比赛实战 */,
 				CF829278221EA9AA003A64BC /* 贪吃蛇 */,
+				8E31673A221FF24A006661BA /* 自定义算法 */,
 				CFC3EA75214DEBA900B71B9B /* Products */,
 				CF82927E221EA9BE003A64BC /* Frameworks */,
 			);
@@ -750,6 +788,7 @@
 				CF67FC02221E506600C6B9EF /* 算法 */,
 				CF829268221E78A0003A64BC /* 演讲比赛实战 */,
 				CF829277221EA9AA003A64BC /* 贪吃蛇 */,
+				8E316733221FF22D006661BA /* 自定义算法 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -843,6 +882,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		8E316732221FF22D006661BA /* 自定义算法 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E316737221FF22D006661BA /* Build configuration list for PBXNativeTarget "自定义算法" */;
+			buildPhases = (
+				8E31672F221FF22D006661BA /* Sources */,
+				8E316730221FF22D006661BA /* Frameworks */,
+				8E316731221FF22D006661BA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "自定义算法";
+			productName = "自定义算法";
+			productReference = 8E316733221FF22D006661BA /* 自定义算法 */;
+			productType = "com.apple.product-type.tool";
+		};
 		CF20ECAD22166A3200ED08E2 /* 虚析构和纯虚析构 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = CF20ECB222166A3200ED08E2 /* Build configuration list for PBXNativeTarget "虚析构和纯虚析构" */;
@@ -1107,6 +1163,10 @@
 				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = luqiuan;
 				TargetAttributes = {
+					8E316732221FF22D006661BA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
 					CF20ECAD22166A3200ED08E2 = {
 						CreatedOnToolsVersion = 10.1;
 						ProvisioningStyle = Automatic;
@@ -1196,11 +1256,22 @@
 				CF67FC01221E506600C6B9EF /* 算法 */,
 				CF829267221E78A0003A64BC /* 演讲比赛实战 */,
 				CF829276221EA9AA003A64BC /* 贪吃蛇 */,
+				8E316732221FF22D006661BA /* 自定义算法 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		8E31672F221FF22D006661BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E31673C221FF24B006661BA /* main.cpp in Sources */,
+				8E43C1A52220EE460076A1E5 /* LinkTest.cpp in Sources */,
+				8E43C1A822212B0E0076A1E5 /* combineList.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CF20ECAA22166A3200ED08E2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1360,6 +1431,24 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		8E316738221FF22D006661BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8E316739221FF22D006661BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		CF20ECB322166A3200ED08E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1860,6 +1949,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		8E316737221FF22D006661BA /* Build configuration list for PBXNativeTarget "自定义算法" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E316738221FF22D006661BA /* Debug */,
+				8E316739221FF22D006661BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		CF20ECB222166A3200ED08E2 /* Build configuration list for PBXNativeTarget "虚析构和纯虚析构" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
