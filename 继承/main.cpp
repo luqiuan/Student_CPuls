@@ -7,14 +7,40 @@
 //
 
 #include <iostream>
+#include <string>
 using namespace std;
 
 class Base {
     
 public:
-    Base();
+    Base(){
+        this->a = 11;this->b=22;
+        this->ch = new char [5];
+        strcpy(this->ch, "awqwqwqwqw");
+        cout<<ch<<endl;
+    };
+    Base(const Base *base){this->a = base->a;this->b = base->b;cout<<"指针型拷贝构造函数"<<endl;this->ch = "12344";}
+    Base(const Base &base){this->a = base.a;this->b = base.b;cout<<"引用型拷贝构造函数"<<endl;this->ch = "12344";}
+    ~Base(){
+        if (this->ch != NULL) {
+            delete [] this->ch;
+        }
+        cout<<"析构函数"<<endl;
+        
+    }
     int a;
     int b;
+    char *ch;
+    
+    bool operator==(const Base &ba){
+        cout<<"c==运算符"<<endl;
+        return ba.a == a && ba.b == b;
+    }
+    
+    bool operator==(const Base *ba){
+        cout<<"c==运算符-指针"<<endl;
+        return ba->a == a && ba->b == b;
+    }
 };
 
 class Son :public Base{
@@ -27,7 +53,25 @@ public:
 int main(int argc, const char * argv[]) {
     cout << "Hello, World!\n";
     
-
+//    Base ba = Base();
+//    ba.a = 100;
+//    ba.b = 200;
+//
+//    Base bb(&ba);
+//
+//    if(ba == bb){
+//        cout<<"相等了"<<endl;
+//    }
+    
+    Base *b = new Base();
+    Base *a = new Base(*b);
+//
+//    if(*b==a){
+//        cout<<"相等了"<<endl;
+//    }
+    
+    delete b;
+    delete a;
     cout<<endl;
     cout<<endl;
     cout<<endl;
@@ -36,23 +80,3 @@ int main(int argc, const char * argv[]) {
     return 0;
 }
 
-
-void snike(){
-    char game[20][20];
-    for (int i = 0; i < 20; i++) {
-        for (int j = 0; j < 20; j++) {
-            if (i==0 || j==0||i == 19 ||j==19) {
-                game[i][j] = '8';
-            }else{
-                game[i][j] = ' ';
-            }
-        }
-    }
-    
-    for (int i = 0; i < 20; i++) {
-        cout<<endl;
-        for (int j = 0; j < 20; j++) {
-            cout<<game[i][j]<<' ';
-        }
-    }
-}

@@ -48,6 +48,10 @@
 		CF84191121FAA730009DC036 /* game2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF84190F21FAA730009DC036 /* game2.cpp */; };
 		CF84191521FAE46D009DC036 /* yinyong.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF84191321FAE46D009DC036 /* yinyong.cpp */; };
 		CF84191921FAFB7E009DC036 /* Circle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF84191721FAFB7E009DC036 /* Circle.cpp */; };
+		CFA8DF9D2224E22600D0F67B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CFA8DF9C2224E22600D0F67B /* main.cpp */; };
+		CFA8DFA32224E24D00D0F67B /* Student.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CFA8DFA12224E24D00D0F67B /* Student.cpp */; };
+		CFA8DFA62224E35800D0F67B /* Node.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CFA8DFA42224E35800D0F67B /* Node.cpp */; };
+		CFA8DFAF22251B9C00D0F67B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CFA8DFAE22251B9C00D0F67B /* main.cpp */; };
 		CFC231D7220171F700C96D90 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CFC231D6220171F700C96D90 /* main.cpp */; };
 		CFC231DD22017E1A00C96D90 /* Calculator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CFC231DB22017E1A00C96D90 /* Calculator.cpp */; };
 		CFC29FC32216A3A8003AA3FA /* Weapon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CFC29FC22216A3A8003AA3FA /* Weapon.cpp */; };
@@ -167,6 +171,24 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		CF829275221EA9AA003A64BC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		CFA8DF982224E22600D0F67B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		CFA8DFAA22251B9C00D0F67B /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -295,6 +317,15 @@
 		CF84191421FAE46D009DC036 /* yinyong.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = yinyong.hpp; sourceTree = "<group>"; };
 		CF84191721FAFB7E009DC036 /* Circle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Circle.cpp; sourceTree = "<group>"; };
 		CF84191821FAFB7E009DC036 /* Circle.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Circle.hpp; sourceTree = "<group>"; };
+		CFA8DF9A2224E22600D0F67B /* 学生信息管理系统 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "学生信息管理系统"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFA8DF9C2224E22600D0F67B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		CFA8DFA12224E24D00D0F67B /* Student.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Student.cpp; sourceTree = "<group>"; };
+		CFA8DFA22224E24D00D0F67B /* Student.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Student.hpp; sourceTree = "<group>"; };
+		CFA8DFA42224E35800D0F67B /* Node.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Node.cpp; sourceTree = "<group>"; };
+		CFA8DFA52224E35800D0F67B /* Node.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Node.hpp; sourceTree = "<group>"; };
+		CFA8DFA72224E7C200D0F67B /* score.dat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = score.dat; sourceTree = "<group>"; };
+		CFA8DFAC22251B9C00D0F67B /* 自定义学生管理系统 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "自定义学生管理系统"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFA8DFAE22251B9C00D0F67B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		CFC231D4220171F700C96D90 /* 动态联编和静态联编 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "动态联编和静态联编"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFC231D6220171F700C96D90 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		CFC231DB22017E1A00C96D90 /* Calculator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Calculator.cpp; sourceTree = "<group>"; };
@@ -413,6 +444,20 @@
 				CF829284221EA9CF003A64BC /* Foundation.framework in Frameworks */,
 				CF829282221EA9C7003A64BC /* GLUT.framework in Frameworks */,
 				CF829280221EA9BF003A64BC /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFA8DF972224E22600D0F67B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFA8DFA922251B9C00D0F67B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -723,6 +768,27 @@
 			path = "New Group/引用/类";
 			sourceTree = "<group>";
 		};
+		CFA8DF9B2224E22600D0F67B /* 学生信息管理系统 */ = {
+			isa = PBXGroup;
+			children = (
+				CFA8DFA72224E7C200D0F67B /* score.dat */,
+				CFA8DF9C2224E22600D0F67B /* main.cpp */,
+				CFA8DFA12224E24D00D0F67B /* Student.cpp */,
+				CFA8DFA22224E24D00D0F67B /* Student.hpp */,
+				CFA8DFA42224E35800D0F67B /* Node.cpp */,
+				CFA8DFA52224E35800D0F67B /* Node.hpp */,
+			);
+			path = "学生信息管理系统";
+			sourceTree = "<group>";
+		};
+		CFA8DFAD22251B9C00D0F67B /* 自定义学生管理系统 */ = {
+			isa = PBXGroup;
+			children = (
+				CFA8DFAE22251B9C00D0F67B /* main.cpp */,
+			);
+			path = "自定义学生管理系统";
+			sourceTree = "<group>";
+		};
 		CFC231D5220171F700C96D90 /* 动态联编和静态联编 */ = {
 			isa = PBXGroup;
 			children = (
@@ -765,6 +831,8 @@
 				CF829269221E78A1003A64BC /* 演讲比赛实战 */,
 				CF829278221EA9AA003A64BC /* 贪吃蛇 */,
 				8E31673A221FF24A006661BA /* 自定义算法 */,
+				CFA8DF9B2224E22600D0F67B /* 学生信息管理系统 */,
+				CFA8DFAD22251B9C00D0F67B /* 自定义学生管理系统 */,
 				CFC3EA75214DEBA900B71B9B /* Products */,
 				CF82927E221EA9BE003A64BC /* Frameworks */,
 			);
@@ -789,6 +857,8 @@
 				CF829268221E78A0003A64BC /* 演讲比赛实战 */,
 				CF829277221EA9AA003A64BC /* 贪吃蛇 */,
 				8E316733221FF22D006661BA /* 自定义算法 */,
+				CFA8DF9A2224E22600D0F67B /* 学生信息管理系统 */,
+				CFA8DFAC22251B9C00D0F67B /* 自定义学生管理系统 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1086,6 +1156,40 @@
 			productReference = CF829277221EA9AA003A64BC /* 贪吃蛇 */;
 			productType = "com.apple.product-type.tool";
 		};
+		CFA8DF992224E22600D0F67B /* 学生信息管理系统 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFA8DF9E2224E22600D0F67B /* Build configuration list for PBXNativeTarget "学生信息管理系统" */;
+			buildPhases = (
+				CFA8DF962224E22600D0F67B /* Sources */,
+				CFA8DF972224E22600D0F67B /* Frameworks */,
+				CFA8DF982224E22600D0F67B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "学生信息管理系统";
+			productName = "学生信息管理系统";
+			productReference = CFA8DF9A2224E22600D0F67B /* 学生信息管理系统 */;
+			productType = "com.apple.product-type.tool";
+		};
+		CFA8DFAB22251B9C00D0F67B /* 自定义学生管理系统 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFA8DFB022251B9C00D0F67B /* Build configuration list for PBXNativeTarget "自定义学生管理系统" */;
+			buildPhases = (
+				CFA8DFA822251B9C00D0F67B /* Sources */,
+				CFA8DFA922251B9C00D0F67B /* Frameworks */,
+				CFA8DFAA22251B9C00D0F67B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "自定义学生管理系统";
+			productName = "自定义学生管理系统";
+			productReference = CFA8DFAC22251B9C00D0F67B /* 自定义学生管理系统 */;
+			productType = "com.apple.product-type.tool";
+		};
 		CFC231D3220171F700C96D90 /* 动态联编和静态联编 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = CFC231DA220171F700C96D90 /* Build configuration list for PBXNativeTarget "动态联编和静态联编" */;
@@ -1211,6 +1315,14 @@
 						CreatedOnToolsVersion = 10.1;
 						ProvisioningStyle = Automatic;
 					};
+					CFA8DF992224E22600D0F67B = {
+						CreatedOnToolsVersion = 10.1;
+						ProvisioningStyle = Automatic;
+					};
+					CFA8DFAB22251B9C00D0F67B = {
+						CreatedOnToolsVersion = 10.1;
+						ProvisioningStyle = Automatic;
+					};
 					CFC231D3220171F700C96D90 = {
 						CreatedOnToolsVersion = 10.1;
 						ProvisioningStyle = Automatic;
@@ -1257,6 +1369,8 @@
 				CF829267221E78A0003A64BC /* 演讲比赛实战 */,
 				CF829276221EA9AA003A64BC /* 贪吃蛇 */,
 				8E316732221FF22D006661BA /* 自定义算法 */,
+				CFA8DF992224E22600D0F67B /* 学生信息管理系统 */,
+				CFA8DFAB22251B9C00D0F67B /* 自定义学生管理系统 */,
 			);
 		};
 /* End PBXProject section */
@@ -1376,6 +1490,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF82927A221EA9AA003A64BC /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFA8DF962224E22600D0F67B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFA8DFA62224E35800D0F67B /* Node.cpp in Sources */,
+				CFA8DF9D2224E22600D0F67B /* main.cpp in Sources */,
+				CFA8DFA32224E24D00D0F67B /* Student.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFA8DFA822251B9C00D0F67B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFA8DFAF22251B9C00D0F67B /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1726,10 +1858,11 @@
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CODE_SIGN_STYLE = Automatic;
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				WARNING_CFLAGS = "-Wno-unused-variable";
 			};
 			name = Debug;
 		};
@@ -1740,9 +1873,66 @@
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WARNING_CFLAGS = "-Wno-unused-variable";
+			};
+			name = Release;
+		};
+		CFA8DF9F2224E22600D0F67B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CFA8DFA02224E22600D0F67B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CODE_SIGN_STYLE = Automatic;
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CFA8DFB122251B9C00D0F67B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WARNING_CFLAGS = "";
+			};
+			name = Debug;
+		};
+		CFA8DFB222251B9C00D0F67B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WARNING_CFLAGS = "";
 			};
 			name = Release;
 		};
@@ -2053,6 +2243,24 @@
 			buildConfigurations = (
 				CF82927C221EA9AA003A64BC /* Debug */,
 				CF82927D221EA9AA003A64BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFA8DF9E2224E22600D0F67B /* Build configuration list for PBXNativeTarget "学生信息管理系统" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFA8DF9F2224E22600D0F67B /* Debug */,
+				CFA8DFA02224E22600D0F67B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFA8DFB022251B9C00D0F67B /* Build configuration list for PBXNativeTarget "自定义学生管理系统" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFA8DFB122251B9C00D0F67B /* Debug */,
+				CFA8DFB222251B9C00D0F67B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

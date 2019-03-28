@@ -15,8 +15,11 @@
 #include <time.h>
 #include <GLUT/GLUT.h> // For linux & windows, please include <GL/glut.h>
 #include <list>
+#include <iostream>
 
 using std::list;
+
+using namespace std;
 
 const int TimerInterval = 400;
 
@@ -98,13 +101,18 @@ void drawBlock(const Position& pos) {
     static const GLfloat Padding = BlockSize * 0.1f;
     GLfloat x = pos.c * BlockSize - 1.0f, y = 1.0f - pos.r * BlockSize;
     glRectf(x+Padding, y-Padding, x+BlockSize-Padding, y-BlockSize+Padding);
+    
 }
 
 void display()  {
+    cout<<"---------0--------"<<endl;
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
     // Snake body
     glColor3f(0.9f, 0.9f, 0.9f);
-    for(auto& pos: gSnakeGame.getSnake()) { drawBlock(pos); }
+    for(auto& pos: gSnakeGame.getSnake()) {
+        drawBlock(pos);
+        
+    }
     // Snake head
     glColor3f(0.3f, 0.9f, 0.3f);
     drawBlock(gSnakeGame.getSnake().front());
@@ -113,6 +121,7 @@ void display()  {
     drawBlock(gSnakeGame.getFoodPos());
     
     glFlush();
+    cout<<"-----------------"<<endl;
 }
 
 void timer(int timerId) {
@@ -137,7 +146,29 @@ void keypress(unsigned char key, int x, int y) {
     }
 }
 
+
+void myDisplay()
+{
+    glClear(GL_COLOR_BUFFER_BIT);
+    glViewport(0,0,400,400);
+    
+    glColor3f(1,0,0);
+    glRectf(0,200,200,400);
+    
+    glColor3f(0,1,0);
+    glRectf(200,200,400,400);
+    
+    glColor3f(0,0,1);
+    glRectf(0,0,200,200);
+    
+    glColor3f(0,0,0);
+    glRectf(200,0,400,200);
+    
+    glFlush();
+}
+
 int main(int argc, char ** argv)  {
+    
     printf("How to play:\n g-Start Game;\n e,s,d,f for direction control;\n q to quit.\n");
     glutInit(&argc, argv);
     glutInitWindowSize(700, 700);
@@ -145,5 +176,29 @@ int main(int argc, char ** argv)  {
     glutDisplayFunc(display);
     glutKeyboardFunc(keypress);
     glutMainLoop();
+//    main1(argc, argv);
     return 0;
 }
+
+
+
+//void Init()
+//{
+//    glClearColor(1,1,1,1);
+//    glMatrixMode(GL_PROJECTION);
+//    glLoadIdentity();
+//    gluOrtho2D(0,400,0,400);
+//}
+//
+//
+//void main1(int argc, char *argv[])
+//{
+//    glutInit(&argc, argv);   //初始化GLUT
+//    glutInitDisplayMode(GLUT_RGB | GLUT_SINGLE);
+//    glutInitWindowPosition(500, 200);
+//    glutInitWindowSize(500, 500);
+//    glutCreateWindow("OpenGL");
+//    Init();
+//    glutDisplayFunc(&myDisplay);   //回调函数
+//    glutMainLoop();    //持续显示，当窗口改变会重新绘制图形
+//}
